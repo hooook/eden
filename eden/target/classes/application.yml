@@ -1,0 +1,21 @@
+##项目启动访问目录
+server:
+  servlet:
+    context-path: /eden
+
+spring:
+  ##页面模板设置
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+  datasource:
+    url: jdbc:mysql://localhost:3306/eden?useUnicode=true&characterEncoding=utf8
+    driverClassName: com.mysql.jdbc.Driver
+    username: eden
+    password: eden
+mybatis:
+  type-aliases-package: com.eden.
+
