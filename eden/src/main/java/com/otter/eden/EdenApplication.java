@@ -12,7 +12,7 @@ public class EdenApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EdenApplication.class, args);
-		log.info("测试日志");
+		log.info("测试日志111111");
 	}
 
 }
