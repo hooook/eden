@@ -17,5 +17,5 @@ spring:
     username: eden
     password: eden
 mybatis:
-  type-aliases-package: com.eden.
+  type-aliases-package: com.otter.eden.mapper
 
