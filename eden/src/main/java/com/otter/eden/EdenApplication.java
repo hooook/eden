@@ -12,12 +12,9 @@ public class EdenApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EdenApplication.class, args);
-<<<<<<< HEAD
 		log.info("测试日志111111");
-=======
 		log.info("测试日志");
 		log.info("xxxx");
->>>>>>> panda
 	}
 
 }
